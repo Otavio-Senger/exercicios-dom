@@ -1,6 +1,6 @@
 var paragrafo = document.getElementById("campo");
-var botao = document.getElementById("botao1");
+var botao1 = document.getElementById("botao1");
 
-botao.addEventListener ("click", function() {
+botao1.addEventListener ("click", function() {
      document.getElementById("paragrafomostra").innerText = paragrafo.value;
 });
