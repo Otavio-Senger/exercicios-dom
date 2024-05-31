@@ -1,10 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(){
-    var botao = document.getElementById("botao");
-    var lista = document.getElementById("lista");
+var botao = document.getElementById("botao1");
+
 
 botao.addEventListener("click", function(){
-    var item = document.createElement("li");
-    item.textContent = "novo item";
-    lista.appendChild(item);
-});
- });
+    var paragrafo = document.getElementById("contador");
+    var pegarvalor = parseInt(paragrafo.textContent);
+    pegarvalor++;
+    paragrafo.textContent = pegarvalor;
+})
